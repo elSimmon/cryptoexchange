@@ -1,73 +1,111 @@
-@extends('layouts.app')
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-@section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{asset('landkit/assets/favicon/favicon.ico')}}" type="image/x-icon" />
 
-                <div class="card-body">
-                    <form method="POST" action="{{ route('login') }}">
-                        @csrf
+    <!-- Map CSS -->
+    <link rel="stylesheet" href="{{asset('landkit/api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css')}}" />
 
-                        <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="{{asset('landkit/assets/css/libs.bundle.css')}}" />
 
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="{{asset('landkit/assets/css/theme.bundle.css')}}" />
 
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
+    <!-- Title -->
+    <title>Sign in Ikhent Exchange</title>
 
-                        <div class="form-group row">
-                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156446909-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-                            <div class="col-md-6">
-                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-156446909-2");
 
-                                @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
+    </script>
+  </head>
+  <body>
 
-                        <div class="form-group row">
-                            <div class="col-md-6 offset-md-4">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+    <!-- CONTENT -->
+    <section>
+      <div class="container d-flex flex-column">
+        <div class="row align-items-center justify-content-center gx-0 min-vh-100">
+          <div class="col-12 col-md-6 col-lg-4 py-8 py-md-11">
 
-                                    <label class="form-check-label" for="remember">
-                                        {{ __('Remember Me') }}
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
+            <!-- Heading -->
+            <h1 class="mb-0 fw-bold">
+              <img src="{{asset('landkit/assets/img/brand.png')}}" alt="About Ikhent Exchange" class="img-fluid mb-3" style="width: 200px;">
+            </h1>
 
-                        <div class="form-group row mb-0">
-                            <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Login') }}
-                                </button>
+            <!-- Text -->
+            <p class="mb-6 text-muted">
+              Sign into your account.
+            </p>
 
-                                @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
-                                    </a>
-                                @endif
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-@endsection
+            <!-- Form -->
+            <form class="mb-6">
+
+              <!-- Email -->
+              <div class="form-group">
+                <label class="form-label" for="email">
+                  Email Address
+                </label>
+                <input type="email" class="form-control" id="email" placeholder="name@address.com">
+              </div>
+
+              <!-- Password -->
+              <div class="form-group mb-5">
+                <label class="form-label" for="password">
+                  Password
+                </label>
+                <input type="password" class="form-control" id="password" placeholder="Enter your password">
+              </div>
+
+              <!-- Submit -->
+              <button class="btn w-100 btn-primary" type="submit">
+                Sign in
+              </button>
+
+            </form>
+
+            <!-- Text -->
+            <p class="mb-0 fs-sm text-muted">
+              Don't have an account yet? <a href="{{route('register')}}">Sign up</a>.
+            </p>
+
+          </div>
+          <div class="col-lg-7 offset-lg-1 align-self-stretch d-none d-lg-block">
+
+            <!-- Image -->
+            <div class="h-100 w-cover bg-cover" style="background-image: url(landkit/assets/img/photos/laptop1.jpg);"></div>
+
+            <!-- Shape -->
+            <div class="shape shape-start shape-fluid-y text-white">
+              <svg viewBox="0 0 100 1544" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h100v386l-50 772v386H0V0z" fill="currentColor"/></svg>            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- JAVASCRIPT -->
+    <!-- Map JS -->
+    <script src='{{asset("landkit/api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js")}}'></script>
+
+    <!-- Vendor JS -->
+    <script src="{{asset('landkit/assets/js/vendor.bundle.js')}}"></script>
+
+    <!-- Theme JS -->
+    <script src="{{asset('landkit/assets/js/theme.bundle.js')}}"></script>
+
+  </body>
+</html>
