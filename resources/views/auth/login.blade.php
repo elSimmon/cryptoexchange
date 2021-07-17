@@ -20,18 +20,7 @@
     <!-- Title -->
     <title>Sign in Ikhent Exchange</title>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156446909-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
 
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "UA-156446909-2");
-
-    </script>
   </head>
   <body>
 
@@ -52,14 +41,20 @@
             </p>
 
             <!-- Form -->
-            <form class="mb-6">
+            <form class="mb-6" method="POST" action="{{ route('login') }}">@csrf
 
               <!-- Email -->
               <div class="form-group">
                 <label class="form-label" for="email">
                   Email Address
                 </label>
-                <input type="email" class="form-control" id="email" placeholder="name@address.com">
+                <input type="email" name="email" class="form-control @error('email') is-invalid @enderror" id="email" value="{{ old('email') }}" placeholder="name@address.com" required autocomplete="email" autofocus>
+
+                @error('email')
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+                @enderror
               </div>
 
               <!-- Password -->
@@ -67,7 +62,13 @@
                 <label class="form-label" for="password">
                   Password
                 </label>
-                <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                <input type="password" name="password" class="form-control @error('password') is-invalid @enderror" id="password" placeholder="Enter your password" required autocomplete="current-password">
+
+                @error('password')
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+                @enderror
               </div>
 
               <!-- Submit -->
@@ -81,7 +82,11 @@
             <p class="mb-0 fs-sm text-muted">
               Don't have an account yet? <a href="{{route('register')}}">Sign up</a>.
             </p>
-
+@if(Route::has('password.request'))
+            <p class="mb-0 fs-sm text-muted">
+              Forgot your password? <a href="{{route('password.request')}}">Recover</a>.
+            </p>
+@endif
           </div>
           <div class="col-lg-7 offset-lg-1 align-self-stretch d-none d-lg-block">
 

@@ -457,7 +457,7 @@
       <div class="container">
 
         <!-- Brand -->
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="{{('/')}}">
           <img src="{{asset('landkit/assets/img/brand.png')}}" class="navbar-brand-img" alt="Ikhent Exchange">
         </a>
 
@@ -489,11 +489,6 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" id="navbarAccount" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
                 About Us
-              </a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" id="navbarDocumentation" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
-                How to Trade
               </a>
             </li>
             <li class="nav-item dropdown">

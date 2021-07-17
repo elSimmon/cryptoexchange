@@ -20,18 +20,7 @@
     <!-- Title -->
     <title>Sign up on Ikhent Exchange</title>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156446909-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
 
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "UA-156446909-2");
-
-    </script>
   </head>
   <body>
 
@@ -52,20 +41,32 @@
             </p>
 
             <!-- Form -->
-            <form class="mb-6">
+            <form class="mb-6" method="POST" action="{{ route('register') }}">@csrf
 
               <!-- Email -->
               <div class="form-group">
                 <!-- <label class="form-label" for="name">
                   Full name
                 </label> -->
-                <input type="text" class="form-control" id="name" placeholder="Full name">
+                <input type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" id="name" placeholder="Full name" required autocomplete="name" autofocus>
+
+                @error('name')
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+                @enderror
               </div>
               <div class="form-group">
                 <!-- <label class="form-label" for="email">
                   Email Address
                 </label> -->
-                <input type="email" class="form-control" id="email" placeholder="email address">
+                <input type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" id="email" placeholder="email address" required autocomplete="email">
+
+                @error('email')
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+                @enderror
               </div>
 
               <!-- Password -->
@@ -73,7 +74,13 @@
                 <!-- <label class="form-label" for="password">
                   Password
                 </label> -->
-                <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                <input type="password" class="form-control @error('password') is-invalid @enderror" name="password" id="password" placeholder="Enter your password" required autocomplete="new-password">
+
+                @error('password')
+                    <span class="invalid-feedback" role="alert">
+                        <strong>{{ $message }}</strong>
+                    </span>
+                @enderror
               </div>
 
               <!-- Password Repeat-->
@@ -81,7 +88,7 @@
                 <!-- <label class="form-label" for="password">
                 Repeat Password
                 </label> -->
-                <input type="password" class="form-control" id="password" placeholder="Repeat password">
+                <input type="password" class="form-control" id="password" placeholder="Repeat password" name="password_confirmation" required autocomplete="new-password">
               </div>
 
               <!-- Submit -->
