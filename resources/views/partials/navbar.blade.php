@@ -73,14 +73,19 @@
           <img src="sky/images/faces/face28.jpg" alt="profile"/>
         </a>
         <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
-          <a class="dropdown-item">
+          <a class="dropdown-item" href="{{route('my-profile')}}">
             <i class="ti-settings text-primary"></i>
-            Settings
+            User Profile
           </a>
-          <a class="dropdown-item">
+            <a class="dropdown-item" href="{{route('create-bank-details')}}">
+                <i class="ti-settings text-primary"></i>
+                Bank Details
+            </a>
+          <a class="dropdown-item" href="{{route('logout')}}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
             <i class="ti-power-off text-primary"></i>
             Logout
           </a>
+            <form id="logout-form" action="{{route('logout')}}" method="post" class="d-none">@csrf</form>
         </div>
       </li>
       <li class="nav-item nav-settings d-none d-lg-flex">

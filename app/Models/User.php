@@ -40,4 +40,42 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function transactions(){
+      return $this->hasMany('App\Models\Transaction');
+    }
+
+    public function profile(){
+        return $this->hasOne('App\Models\Profile');
+    }
+
+    public function bank(){
+        return $this->hasOne('App\Models\Bank');
+    }
+
+    public function withdrawal(){
+        return $this->hasMany('App\Models\Withdrawal');
+    }
+
+    public function giftcard(){
+        return $this->hasMany('App\Models\Giftcard');
+    }
+
+    public function messages(){
+        return $this->hasMany('App\Models\Message');
+    }
+
+    public function cardtrades(){
+        return $this->hasMany('App\Models\Cardtrade');
+    }
+
+    public function cointrades(){
+        return $this->hasMany('App\Models\Cointrade');
+    }
+
+    public function bitcoin(){
+        return $this->hasOne('App\Models\Bitcoin');
+    }
+
+
 }
