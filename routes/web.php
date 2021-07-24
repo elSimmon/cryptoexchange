@@ -26,7 +26,7 @@ Route::get('/all-transactions', [App\Http\Controllers\TransactionController::cla
 //Profiles
 Route::get('/user-profiles', [App\Http\Controllers\ProfileController::class, 'index'])->name('user-profiles');
 Route::get('/my-profile', [\App\Http\Controllers\ProfileController::class, 'create'])->name('my-profile');
-Route::post('/update-profile', [\App\Http\Controllers\ProfileController::class, 'store'])->name('update-profile');
+Route::post('/update-profile', [App\Http\Controllers\ProfileController::class, 'store'])->name('update-profile');
 //banks
 Route::get('/bank-accounts', [\App\Http\Controllers\BankController::class, 'index'])->name('bank-accounts');
 Route::get('/create-bank-details', [\App\Http\Controllers\BankController::class, 'create'])->name('create-bank-details');

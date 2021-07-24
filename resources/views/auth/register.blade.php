@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="{{asset('landkit/assets/css/theme.bundle.css')}}" />
 
     <!-- Title -->
-    <title>Sign up on Ikhent Exchange</title>
+    <title>Sign up on iKHent Exchange</title>
 
 
   </head>

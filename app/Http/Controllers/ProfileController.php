@@ -2,13 +2,19 @@
 
 namespace App\Http\Controllers;
 
-use Faker\Provider\Image;
+use Image;
 use Illuminate\Http\Request;
 use App\Models\Profile;
 use Illuminate\Support\Facades\Auth;
 
 class ProfileController extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     public function index(){
         $profiles = Profile::all();
         return view('profiles.index')->withProfiles($profiles);
@@ -20,10 +26,11 @@ class ProfileController extends Controller
     }
 
     public function store(Request $request){
+
         $this->validate($request, [
-            'photo' => 'required|image',
+            'photo' => 'required',
             'phone' => 'required|numeric',
-            'address' => 'required'
+            'address' => 'required',
         ]);
 
         $profile = new Profile();
@@ -42,7 +49,7 @@ class ProfileController extends Controller
         }
         $profile->save();
 
-        return back();
+        return redirect()->route('my-profile');
     }
 
     public function show($id){

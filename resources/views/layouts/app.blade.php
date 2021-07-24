@@ -74,5 +74,6 @@
   <script src="{{asset('sky/js/dashboard.js')}}"></script>
   <script src="{{asset('sky/js/Chart.roundedBarCharts.js')}}"></script>
   <!-- End custom js for this page-->
+  <script src="//code.tidio.co/o0hpe5hsckqygcu3vbenj63fkanctzts.js" async></script>
 </body>
 </html>

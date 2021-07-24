@@ -17,7 +17,7 @@
     <!-- Theme CSS -->
     <link rel="stylesheet" href="{{asset('landkit/assets/css/theme.bundle.css')}}" />
     <!-- Title -->
-    <title>Ikhent Inc. Exchange</title>
+    <title>iKHENT Exchange</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156446909-2"></script>
@@ -118,339 +118,6 @@
       </div>
     </div>
 
-    <!-- Signup: Horizontal  -->
-    <div class="modal fade" id="modalSignupHorizontal" tabindex="-1" role="dialog" aria-labelledby="modalSignupHorizontalTitle" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="card card-row">
-            <div class="row gx-0">
-              <div class="col-12 col-md-6 bg-cover card-img-start" style="background-image: url(assets/img/photos/photo-8.jpg);">
-
-                <!-- Image (placeholder) -->
-                <img src="assets/img/photos/photo-8.jpg" alt="..." class="img-fluid d-md-none invisible">
-
-                <!-- Shape -->
-                <div class="shape shape-end shape-fluid-y text-white d-none d-md-block">
-                  <svg viewBox="0 0 112 690" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M116 0H51v172C76 384 0 517 0 517v173h116V0z" fill="currentColor"/></svg>            </div>
-
-              </div>
-              <div class="col-12 col-md-6">
-                <div class="card-body">
-
-                  <!-- Close -->
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-
-                  <!-- Heading -->
-                  <h2 class="mb-0 fw-bold text-center" id="modalSignupHorizontalTitle">
-                    Sign Up
-                  </h2>
-
-                  <!-- Text -->
-                  <p class="mb-6 text-center text-muted">
-                    Simplify your workflow in minutes.
-                  </p>
-
-                  <!-- Form -->
-                  <form class="mb-6">
-
-                    <!-- Email -->
-                    <div class="form-group">
-                      <label class="visually-hidden" for="modalSignupHorizontalEmail">
-                        Your email
-                      </label>
-                      <input type="email" class="form-control" id="modalSignupHorizontalEmail" placeholder="Your email">
-                    </div>
-
-                    <!-- Password -->
-                    <div class="form-group mb-5">
-                      <label class="visually-hidden" for="modalSignupHorizontalPassword">
-                        Create a password
-                      </label>
-                      <input type="password" class="form-control" id="modalSignupHorizontalPassword" placeholder="Create a password">
-                    </div>
-
-                    <!-- Submit -->
-                    <button class="btn w-100 btn-primary" type="submit">
-                      Sign up
-                    </button>
-
-                  </form>
-
-                  <!-- Text -->
-                  <p class="mb-0 fs-sm text-center text-muted">
-                    Already have an account? <a href="signin-illustration.html">Log in</a>.
-                  </p>
-
-                </div>
-              </div>
-
-            </div> <!-- / .row -->
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Signup: Vertical  -->
-    <div class="modal fade" id="modalSignupVertical" tabindex="-1" role="dialog" aria-labelledby="modalSignupVerticalTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="card">
-
-            <!-- Close -->
-            <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
-
-            <!-- Image -->
-            <img src="assets/img/photos/photo-7.jpg" alt="..." class="card-img-top">
-
-            <!-- Shape -->
-            <div class="position-relative">
-              <div class="shape shape-bottom shape-fluid-x text-white">
-                <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>          </div>
-            </div>
-
-            <!-- Body -->
-            <div class="card-body">
-
-              <!-- Heading -->
-              <h2 class="mb-0 fw-bold text-center" id="modalSignupVerticalTitle">
-                Sign Up
-              </h2>
-
-              <!-- Text -->
-              <p class="mb-6 text-center text-muted">
-                Simplify your workflow in minutes.
-              </p>
-
-              <!-- Form -->
-              <form class="mb-6">
-
-                <!-- Email -->
-                <div class="form-group">
-                  <label class="visually-hidden" for="modalSignupVerticalEmail">
-                    Your email
-                  </label>
-                  <input type="email" class="form-control" id="modalSignupVerticalEmail" placeholder="Your email">
-                </div>
-
-                <!-- Password -->
-                <div class="form-group mb-5">
-                  <label class="visually-hidden" for="modalSignupVerticalPassword">
-                    Create a password
-                  </label>
-                  <input type="password" class="form-control" id="modalSignupVerticalPassword" placeholder="Create a password">
-                </div>
-
-                <!-- Submit -->
-                <button class="btn w-100 btn-primary" type="submit">
-                  Sign up
-                </button>
-
-              </form>
-
-              <!-- Text -->
-              <p class="mb-0 fs-sm text-center text-muted">
-                Already have an account? <a href="signin-illustration.html">Log in</a>.
-              </p>
-
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Signin: Horizontal  -->
-    <div class="modal fade" id="modalSigninHorizontal" tabindex="-1" role="dialog" aria-labelledby="modalSigninHorizontalTitle" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="card card-row">
-            <div class="row gx-0">
-              <div class="col-12 col-md-6 bg-cover card-img-start" style="background-image: url(assets/img/photos/photo-1.jpg);">
-
-                <!-- Image (placeholder) -->
-                <img src="assets/img/photos/photo-1.jpg" alt="..." class="img-fluid d-md-none invisible">
-
-                <!-- Shape -->
-                <div class="shape shape-end shape-fluid-y text-white d-none d-md-block">
-                  <svg viewBox="0 0 112 690" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M116 0H51v172C76 384 0 517 0 517v173h116V0z" fill="currentColor"/></svg>            </div>
-
-              </div>
-              <div class="col-12 col-md-6">
-                <div class="card-body">
-
-                  <!-- Close -->
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-
-                  <!-- Heading -->
-                  <h2 class="mb-0 fw-bold text-center" id="modalSigninHorizontalTitle">
-                    Sign In
-                  </h2>
-
-                  <!-- Text -->
-                  <p class="mb-6 text-center text-muted">
-                    Simplify your workflow in minutes.
-                  </p>
-
-                  <!-- Form -->
-                  <form class="mb-6">
-
-                    <!-- Email -->
-                    <div class="form-group">
-                      <label class="visually-hidden" for="modalSigninHorizontalEmail">
-                        Your email
-                      </label>
-                      <input type="email" class="form-control" id="modalSigninHorizontalEmail" placeholder="Your email">
-                    </div>
-
-                    <!-- Password -->
-                    <div class="form-group mb-5">
-                      <label class="visually-hidden" for="modalSigninHorizontalPassword">
-                        Enter your password
-                      </label>
-                      <input type="password" class="form-control" id="modalSigninHorizontalPassword" placeholder="Enter your password">
-                    </div>
-
-                    <!-- Submit -->
-                    <button class="btn w-100 btn-primary" type="submit">
-                      Sign in
-                    </button>
-
-                  </form>
-
-                  <!-- Text -->
-                  <p class="mb-0 fs-sm text-center text-muted">
-                    Don't have an account yet? <a href="signin-illustration.html">Sign up</a>.
-                  </p>
-
-                </div>
-              </div>
-
-            </div> <!-- / .row -->
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Signin: Vertical  -->
-    <div class="modal fade" id="modalSigninVertical" tabindex="-1" role="dialog" aria-labelledby="modalSigninVerticalTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="card">
-
-            <!-- Close -->
-            <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
-
-            <!-- Image -->
-            <img src="assets/img/photos/photo-21.jpg" alt="..." class="card-img-top">
-
-            <!-- Shape -->
-            <div class="position-relative">
-              <div class="shape shape-bottom shape-fluid-x text-white">
-                <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>          </div>
-            </div>
-
-            <!-- Body -->
-            <div class="card-body">
-
-              <!-- Heading -->
-              <h2 class="mb-0 fw-bold text-center" id="modalSigninVerticalTitle">
-                Sign In
-              </h2>
-
-              <!-- Text -->
-              <p class="mb-6 text-center text-muted">
-                Simplify your workflow in minutes.
-              </p>
-
-              <!-- Form -->
-              <form class="mb-6">
-
-                <!-- Email -->
-                <div class="form-group">
-                  <label class="visually-hidden" for="modalSigninVerticalEmail">
-                    Your email
-                  </label>
-                  <input type="email" class="form-control" id="modalSigninVerticalEmail" placeholder="Your email">
-                </div>
-
-                <!-- Password -->
-                <div class="form-group mb-5">
-                  <label class="visually-hidden" for="modalSigninVerticalPassword">
-                    Enter your password
-                  </label>
-                  <input type="password" class="form-control" id="modalSigninVerticalPassword" placeholder="Enter your password">
-                </div>
-
-                <!-- Submit -->
-                <button class="btn w-100 btn-primary" type="submit">
-                  Sign in
-                </button>
-
-              </form>
-
-              <!-- Text -->
-              <p class="mb-0 fs-sm text-center text-muted">
-                Don't have an account yet? <a href="signin-illustration.html">Sign up</a>.
-              </p>
-
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Payment -->
-    <div class="modal fade" id="modalPayment" tabindex="-1" role="dialog" aria-labelledby="modalPaymentTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-body">
-
-            <!-- Close -->
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-
-            <!-- Heading -->
-            <h2 class="fw-bold text-center mb-1" id="modalPaymentTitle">
-              Add Payment
-            </h2>
-
-            <!-- Text -->
-            <p class="fs-lg text-center text-muted mb-6 mb-md-8">
-              Simplify your workflow in minutes.
-            </p>
-
-            <!-- Form -->
-            <form>
-
-              <!-- Name -->
-              <div class="form-group">
-                <label class="form-label" for="modalPaymentName">Name on card</label>
-                <input class="form-control" id="modalPaymentName" type="text" placeholder="First Last">
-              </div>
-
-              <!-- Name -->
-              <div class="form-group">
-                <label class="form-label" for="modalPaymentNumbber">Card number</label>
-                <input class="form-control" id="modalPaymentNumbber" type="number" placeholder="4242 4242 4242 4242">
-              </div>
-
-              <!-- Name -->
-              <div class="form-group">
-                <label class="form-label" for="modalPaymentDate">Exp. Date</label>
-                <input class="form-control" id="modalPaymentDate" type="text" placeholder="03/2023">
-              </div>
-
-              <!-- Submit -->
-              <button class="btn w-100 btn-primary mt-3 lift">
-                Add Payment Method
-              </button>
-
-            </form>
-
-          </div>
-        </div>
-      </div>
-    </div>
 
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -458,7 +125,7 @@
 
         <!-- Brand -->
         <a class="navbar-brand" href="{{('/')}}">
-          <img src="{{asset('landkit/assets/img/brand.png')}}" class="navbar-brand-img" alt="Ikhent Exchange">
+          <img src="{{asset('landkit/assets/img/brand.png')}}" class="navbar-brand-img" alt="iKHENT Exchange">
         </a>
 
         <!-- Toggler -->
@@ -527,7 +194,7 @@
 
             <!-- Heading -->
             <h1 class="display-3 text-center text-md-start">
-              <span class="text-danger text-bold">Ikhent Exchange</span>. <br>
+              <span class="text-danger text-bold">iKHENT Exchange</span>. <br>
               <span class="text-primary text-hightlighted">Trade Bitcoin and Gift Cards</span>
             </h1>
 
@@ -569,7 +236,7 @@
 
             <!-- Text -->
             <p class="text-secondary mb-6 mb-md-0">
-              You instantly get a bitcoin wallet that exclusively belongs to you when you create an account on Ikhent Exchange.
+              You instantly get a bitcoin wallet that exclusively belongs to you when you create an account on iKHENT Exchange.
             </p>
 
           </div>
@@ -621,13 +288,13 @@
 
             <!-- Heading -->
             <h2>
-              The most useful resource <br>
-              <span class="text-success">ever created for <span data-typed='{"strings": ["developers.", "founders.", "designers."]}'></span></span>
+              The best exchange app <br>
+              <span class="text-success">ever created for <span data-typed='{"strings": ["businesses.", "individuals.", "organizations."]}'></span></span>
             </h2>
 
             <!-- Text -->
             <p class="fs-lg text-muted mb-6">
-              Using Landkit to build your site means never worrying about designing another page or cross browser compatibility. Our ever-growing library of components and pre-designed layouts will make your life easier.
+              Using iKHENT Exchange to trade your digital currency means never worrying about security, exchange misappropriations and downtimes. Our Exchange Algorithms are designed to make your life easier.
             </p>
 
             <!-- List -->
@@ -644,7 +311,7 @@
 
                   <!-- Text -->
                   <p class="text-success">
-                    Lifetime updates
+                    Lifetime Wallets
                   </p>
 
                 </div>
@@ -658,7 +325,7 @@
                   </div>
 
                   <p class="text-success mb-lg-0">
-                    Tons of assets
+                    Multiple Coins
                   </p>
 
                 </div>
@@ -691,7 +358,7 @@
 
                   <!-- Text -->
                   <p class="text-success mb-0">
-                    Integration ready
+                    Payment ready
                   </p>
 
                 </div>
@@ -706,7 +373,7 @@
             <div class="card shadow-light-lg lift lift-lg">
 
               <!-- Image -->
-              <img src="{{asset('landkit/assets/img/photos/blockchain1.jpg')}}" alt="About Ikhent Exchange" class="card-img-top">
+              <img src="{{asset('landkit/assets/img/photos/blockchain1.jpg')}}" alt="About iKHENT Exchange" class="card-img-top">
 
               <!-- Shape -->
               <div class="position-relative">
@@ -742,13 +409,13 @@
 
             <!-- Heading -->
             <h2 class="text-bold">
-              About Us at <br>
-              <span class="text-primary">Ikhent Exchange</span>.
+              About Us <br>
+              <span class="text-primary">What is iKHENT Exchange ?</span>.
             </h2>
 
             <!-- Text -->
-            <p class="fs-lg text-muted mb-6">
-              We've built well over a dozen Bootstrap themes and sold tens of thousands of copies.
+            <p class="fs-lg mb-6">
+                iKHENT Exchange (grand masters of instant payment) is the first and most trusted fully automated cryptocurrency company that exchange bitcoin and gift cards to instant cash directly to your local bank account. The exchange you can count on.
             </p>
 
             <!-- List -->
@@ -761,14 +428,14 @@
               <div class="ms-5">
 
                 <!-- Heading -->
-                <h4 class="mb-1">
-                  Bootstrap users since the beginning
-                </h4>
+{{--                <h4 class="mb-1">--}}
+{{--                  Bootstrap users since the beginning--}}
+{{--                </h4>--}}
 
                 <!-- Text -->
-                <p class="text-muted mb-6">
-                  We've been developing with Bootstrap since it was publicly released in 2011.
-                </p>
+{{--                <p class="text-muted mb-6">--}}
+{{--                  We've been developing with Bootstrap since it was publicly released in 2011.--}}
+{{--                </p>--}}
 
               </div>
 
@@ -782,14 +449,14 @@
               <div class="ms-5">
 
                 <!-- Heading -->
-                <h4 class="mb-1">
-                  Deep understanding of Bootstrap
-                </h4>
+{{--                <h4 class="mb-1">--}}
+{{--                  Deep understanding of Bootstrap--}}
+{{--                </h4>--}}
 
-                <!-- Text -->
-                <p class="text-muted mb-6 mb-md-0">
-                  We've watched Bootstrap grow up over the years and understand it better than almost anyone.
-                </p>
+{{--                <!-- Text -->--}}
+{{--                <p class="text-muted mb-6 mb-md-0">--}}
+{{--                  We've watched Bootstrap grow up over the years and understand it better than almost anyone.--}}
+{{--                </p>--}}
 
               </div>
 
@@ -1024,20 +691,20 @@
             <div class="d-flex">
 
               <!-- Badge -->
-              <div class="badge badge-lg badge-rounded-circle bg-success">
-                <span>?</span>
+              <div class="badge badge-lg badge-rounded-circle bg-danger">
+                <span>1</span>
               </div>
 
               <div class="ms-5">
 
                 <!-- Heading -->
                 <h4 class="text-white">
-                  Can I use Landkit for my clients?
+                    What Is iKHENT Exchange?
                 </h4>
 
                 <!-- Text -->
                 <p class="text-muted mb-6 mb-md-8">
-                  Absolutely. The Bootstrap Themes license allows you to build a website for personal use or for a client.
+                    iKHENT Exchange is an exchange platform that makes it easy to sell your Bitcoin and unwanted gift cards for cash.
                 </p>
 
               </div>
@@ -1048,20 +715,20 @@
             <div class="d-flex">
 
               <!-- Badge -->
-              <div class="badge badge-lg badge-rounded-circle bg-success">
-                <span>?</span>
+              <div class="badge badge-lg badge-rounded-circle bg-danger">
+                <span>2</span>
               </div>
 
               <div class="ms-5">
 
                 <!-- Heading -->
                 <h4 class="text-white">
-                  Do I get free updates?
+                    Why should I use iKHENT Exchange?
                 </h4>
 
                 <!-- Text -->
                 <p class="text-muted mb-6 mb-md-0">
-                  Yes. We update all of our themes with each Bootstrap update, plus are constantly adding new components, pages, and features to our themes.
+                    iKHENT Exchange offers a simple, safe, and convenient way to sell gift cards. To provide our customers with peace of mind, we securely process every bitcoin and gift card transaction.
                 </p>
 
               </div>
@@ -1075,20 +742,20 @@
             <div class="d-flex">
 
               <!-- Badge -->
-              <div class="badge badge-lg badge-rounded-circle bg-success">
-                <span>?</span>
+              <div class="badge badge-lg badge-rounded-circle bg-danger">
+                <span>3</span>
               </div>
 
               <div class="ms-5">
 
                 <!-- Heading -->
                 <h4 class="text-white">
-                  Is there a money back guarantee?
+                    Do you have a location I can go to sell my gift card(s)?
                 </h4>
 
                 <!-- Text -->
                 <p class="text-muted mb-6 mb-md-8">
-                  Yup! Bootstrap Themes come with a satisfaction guarantee. Submit a return and get your money back.
+                    Currently we only have an online presence. We do not have any physical locations.
                 </p>
 
               </div>
@@ -1099,20 +766,20 @@
             <div class="d-flex">
 
               <!-- Badge -->
-              <div class="badge badge-lg badge-rounded-circle bg-success">
-                <span>?</span>
+              <div class="badge badge-lg badge-rounded-circle bg-danger">
+                <span>4</span>
               </div>
 
               <div class="ms-5">
 
                 <!-- Heading -->
                 <h4 class="text-white">
-                  Does it work with Rails? React? Laravel?
+                    How long does it take to process a gift card?
                 </h4>
 
                 <!-- Text -->
                 <p class="text-muted mb-6 mb-md-0">
-                  Yes. Landkit has basic CSS/JS files you can include. If you want to enable deeper customization, you can integrate it into your assets pipeline or build processes.
+                    For iTunes, Amazon, steam and google the turnaround time is 5-10 minutes while other cards such as Apple, Wal-Mart, Sephora, Nordstrom, E-bay etc. takes between 1-3 hours to process.
                 </p>
 
               </div>
@@ -1137,16 +804,16 @@
 
             <!-- Heading -->
             <h1 class="display-4 text-white">
-              Start trading on Ikhent Exchange and save your time.
+              Start trading on iKHENT Exchange and save your time.
             </h1>
 
             <!-- Text -->
             <p class="fs-lg text-muted mb-6 mb-md-8">
-              Stop wasting time. Ikhent Exchange is faster, easier, and you still have complete control of your account and funds.
+              Stop wasting time. iKHENT Exchange is faster, easier, and you still have complete control of your account and funds.
             </p>
 
             <!-- Button -->
-            <a href="{{route('register')}}" target="_blank" class="btn btn-success lift">
+            <a href="{{route('register')}}" target="_blank" class="btn btn-danger lift">
               Get Started Now <i class="fe fe-arrow-right"></i>
             </a>
 
@@ -1275,7 +942,7 @@
 
             <!-- Heading -->
             <h6 class="fw-bold text-uppercase text-gray-700">
-              Ikhent Exchange
+              iKHENT Exchange
             </h6>
 
             <!-- List -->
@@ -1311,7 +978,7 @@
 
     <!-- Theme JS -->
     <script src="{{asset('landkit/assets/js/theme.bundle.js')}}"></script>
-
+    <script src="//code.tidio.co/o0hpe5hsckqygcu3vbenj63fkanctzts.js" async></script>
   </body>
 
 <!-- Mirrored from landkit.goodthemes.co/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Jul 2021 04:14:38 GMT -->

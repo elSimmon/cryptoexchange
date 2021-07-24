@@ -83,29 +83,53 @@
                                                 <p class="card-description">
                                                     Update your Profile
                                                 </p>
-                                                <form class="forms-sample" method="post" enctype="multipart/form-data" action="{{route('update-profile')}}">@csrf
+                                                <form class="mb-6" method="POST" enctype="multipart/form-data" action="{{route('update-profile')}}">@csrf
                                                     <div class="form-group row">
                                                         <label for="photo" class="col-sm-3 col-form-label">Profile photo</label>
                                                         <div class="col-sm-9">
                                                             <input type="file" name="photo" class="form-control" id="photo" placeholder="Upload">
+
+                                                            @error('photo')
+                                                            <span class="invalid-feedback" role="alert">
+                                                              <strong>{{ $message }}</strong>
+                                                            </span>
+                                                            @enderror
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <label for="nin" class="col-sm-3 col-form-label">National Identification Number (NIN)</label>
                                                         <div class="col-sm-9">
-                                                            <input type="text" class="form-control" id="nin" placeholder="NIN">
+                                                            <input type="text" name="nin" class="form-control" id="nin" placeholder="NIN">
+
+                                                            @error('nin')
+                                                            <span class="invalid-feedback" role="alert">
+                                                             <strong>{{ $message }}</strong>
+                                                            </span>
+                                                            @enderror
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <label for="phone" class="col-sm-3 col-form-label">Phone Number</label>
                                                         <div class="col-sm-9">
                                                             <input type="text" name="phone" class="form-control" id="phone" placeholder="Mobile number">
+
+                                                            @error('phone')
+                                                            <span class="invalid-feedback" role="alert">
+                                                             <strong>{{ $message }}</strong>
+                                                             </span>
+                                                            @enderror
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <label for="address" class="col-sm-3 col-form-label">Contact Address</label>
                                                         <div class="col-sm-9">
                                                             <textarea type="password" class="form-control" id="address" name="address" placeholder="Contact Address"></textarea>
+
+                                                            @error('address')
+                                                            <span class="invalid-feedback" role="alert">
+                                                             <strong>{{ $message }}</strong>
+                                                            </span>
+                                                            @enderror
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
@@ -151,18 +175,30 @@
                                                                 <option value="Yobe">Yobe</option>
                                                                 <option value="Zamfara">Zamfara</option>
                                                             </select>
+
+                                                            @error('state')
+                                                            <span class="invalid-feedback" role="alert">
+                                                             <strong>{{ $message }}</strong>
+                                                            </span>
+                                                            @enderror
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <label for="country" class="col-sm-3 col-form-label">Country</label>
                                                         <div class="col-sm-9">
-                                                            <select class="form-control" id="country" name="country">
+                                                            <select class="form-control  @error('country') is-invalid @enderror" id="country" name="country">
                                                                 <option disabled selected>Select Country</option>
                                                                 <option value="Nigeria">Nigeria</option>
                                                             </select>
+                                                            @error('country')
+                                                            <span class="invalid-feedback" role="alert">
+                                                             <strong>{{ $message }}</strong>
+                                                            </span>
+                                                            @enderror
                                                         </div>
                                                     </div>
-                                                    <button type="submit" class="btn btn-primary mr-2 btn-block">Submit</button>
+{{--                                                    <button type="submit" class="btn btn-primary mr-2">Submit</button>--}}
+                                                    <input type="submit" class="btn btn-block btn-primary mr3" value="Update Profile" />
                                                 </form>
                                             </div>
                                         </div>
