@@ -18,6 +18,7 @@ class CreateBanksTable extends Migration
             $table->integer('user_id');
             $table->string('name');
             $table->string('account_type');
+            $table->string('account_number');
             $table->string('bvn')->nullable();
             $table->string('swift_code')->nullable();
             $table->timestamps();

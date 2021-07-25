@@ -24,7 +24,7 @@
   <!-- endinject -->
   <link rel="shortcut icon" href="{{asset('sky/images/favicon.jpg')}}" />
   <link rel="stylesheet" href="{{asset('sky/vendors/mdi/css/materialdesignicons.min.css')}}"/>
-  <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
 
 </head>
 <body>

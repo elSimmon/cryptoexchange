@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Support\Facades\Auth;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,9 +25,9 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/all-transactions', [App\Http\Controllers\TransactionController::class, 'index'])->name('all-transactions');
 //Profiles
 Route::get('/user-profiles', [App\Http\Controllers\ProfileController::class, 'index'])->name('user-profiles');
-Route::get('/my-profile', [\App\Http\Controllers\ProfileController::class, 'create'])->name('my-profile');
+Route::get('/my-profile', [App\Http\Controllers\ProfileController::class, 'create'])->name('my-profile');
 Route::post('/update-profile', [App\Http\Controllers\ProfileController::class, 'store'])->name('update-profile');
 //banks
-Route::get('/bank-accounts', [\App\Http\Controllers\BankController::class, 'index'])->name('bank-accounts');
-Route::get('/create-bank-details', [\App\Http\Controllers\BankController::class, 'create'])->name('create-bank-details');
-Route::post('/update-bank-details', [\App\Http\Controllers\BankController::class, 'store'])->name('update-bank-details');
+Route::get('/bank-accounts', [App\Http\Controllers\BankController::class, 'index'])->name('bank-accounts');
+Route::get('/create-bank-details', [App\Http\Controllers\BankController::class, 'create'])->name('create-bank-details');
+Route::post('/update-bank-details', [App\Http\Controllers\BankController::class, 'store'])->name('update-bank-details');

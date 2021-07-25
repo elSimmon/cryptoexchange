@@ -19020,7 +19020,7 @@ a.text-dark:hover, a.text-dark:focus {
   .table, .jsgrid .jsgrid-table {
     border-collapse: collapse !important;
   }
-  
+
   .table td,
   .jsgrid .jsgrid-table td, .table th, .jsgrid .jsgrid-table th {
     background-color: #ffffff !important;
@@ -28414,7 +28414,7 @@ div.tagsinput span.tag a {
 }
 
 .content-wrapper {
-  background: #F5F7FF;
+  background: #063671;
   padding: 2.375rem 2.375rem;
   width: 100%;
   -webkit-flex-grow: 1;

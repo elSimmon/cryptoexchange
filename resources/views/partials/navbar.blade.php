@@ -69,15 +69,15 @@
         </div>
       </li>
       <li class="nav-item nav-profile dropdown">
-          @if(Auth::user()->profile()->photo == null)
         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" id="profileDropdown">
-          <img src="sky/images/faces/face28.jpg" alt="profile"/>
+          <img src="sky/images/faces/circled-user.png" alt="profile"/>
         </a>
-          @else
-              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" id="profileDropdown">
-                  <img src="{{asset('images/'.$profile->photo)}}" alt="profile"/>
-              </a>
-          @endif
+{{--          @if($my_profile)--}}
+
+{{--          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" id="profileDropdown">--}}
+{{--                  <img src="{{asset('images/'.$my_profile->photo)}}" alt="profile"/>--}}
+{{--              </a>--}}
+{{--          @endif--}}
         <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
           <a class="dropdown-item" href="{{route('my-profile')}}">
             <i class="ti-settings text-primary"></i>

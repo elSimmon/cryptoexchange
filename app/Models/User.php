@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Models;
-
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -46,11 +46,11 @@ class User extends Authenticatable
     }
 
     public function profile(){
-        return $this->hasOne('App\Models\Profile');
+        return $this->hasOne(Profile::class, 'user_id', 'id');
     }
 
-    public function bank(){
-        return $this->hasOne('App\Models\Bank');
+    public function banks(){
+        return $this->hasMany(Bank::class);
     }
 
     public function withdrawal(){

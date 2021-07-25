@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{asset('landkit/assets/favicon/favicon.ico')}}" type="image/x-icon" />
+    <link rel="shortcut icon" href="{{asset('sky/images/favicon.jpg')}}" type="image/x-icon" />
 
     <!-- Map CSS -->
     <link rel="stylesheet" href="{{asset('landkit/api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css')}}" />
