@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateGiftcardsTable extends Migration
+class CreateCardCategoriesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,10 @@ class CreateGiftcardsTable extends Migration
      */
     public function up()
     {
-        Schema::create('giftcards', function (Blueprint $table) {
+        Schema::create('card_categories', function (Blueprint $table) {
             $table->id();
-            $table->bigInteger('card_category_id');
-            $table->string('country');
-            $table->string('type');
-            $table->string('denomination');
-            $table->double('rate');
+            $table->string('name');
+            $table->string('image');
             $table->timestamps();
         });
     }
@@ -31,6 +28,6 @@ class CreateGiftcardsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('giftcards');
+        Schema::dropIfExists('card_categories');
     }
 }

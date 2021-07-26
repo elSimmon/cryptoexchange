@@ -1,4 +1,4 @@
-<nav class="sidebar sidebar-offcanvas" id="sidebar">
+<nav class="sidebar sidebar-dark" id="sidebar">
   <ul class="nav">
     <li class="nav-item">
       <a class="nav-link" href="{{route('home')}}">
@@ -7,7 +7,7 @@
       </a>
     </li>
       <li class="nav-item">
-          <a class="nav-link" href="{{route('home')}}">
+          <a class="nav-link" href="{{route('my-dashboard')}}">
               <i class="icon-grid menu-icon"></i>
               <span class="menu-title">Dashboard</span>
           </a>

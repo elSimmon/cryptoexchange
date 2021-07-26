@@ -31,3 +31,10 @@ Route::post('/update-profile', [App\Http\Controllers\ProfileController::class, '
 Route::get('/bank-accounts', [App\Http\Controllers\BankController::class, 'index'])->name('bank-accounts');
 Route::get('/create-bank-details', [App\Http\Controllers\BankController::class, 'create'])->name('create-bank-details');
 Route::post('/update-bank-details', [App\Http\Controllers\BankController::class, 'store'])->name('update-bank-details');
+
+//dashboard
+Route::get('/my-dashboard', [App\Http\Controllers\HomeController::class, 'dashboard'])->name('my-dashboard');
+
+//card categories
+Route::get('/new-card-category', [App\Http\Controllers\CardCategoryController::class, 'create'])->name('new-card-category');
+Route::post('/save-card-category', [App\Http\Controllers\CardCategoryController::class, 'store'])->name('save-card-category');
