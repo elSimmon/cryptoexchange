@@ -36,5 +36,13 @@ Route::post('/update-bank-details', [App\Http\Controllers\BankController::class,
 Route::get('/my-dashboard', [App\Http\Controllers\HomeController::class, 'dashboard'])->name('my-dashboard');
 
 //card categories
-Route::get('/new-card-category', [App\Http\Controllers\CardCategoryController::class, 'create'])->name('new-card-category');
+Route::get('/all-cards', [\App\Http\Controllers\CardCategoryController::class, 'index'])->name('all-cards');
+Route::get('/manage-cards', [App\Http\Controllers\CardCategoryController::class, 'create'])->name('manage-cards');
 Route::post('/save-card-category', [App\Http\Controllers\CardCategoryController::class, 'store'])->name('save-card-category');
+Route::get('/edit-card-category/{id}', [\App\Http\Controllers\CardCategoryController::class, 'edit'])->name('edit-card-category');
+Route::get('/show-card-category/{id}', [\App\Http\Controllers\CardCategoryController::class, 'show'])->name('show-card-category');
+Route::post('/update-card-category', [\App\Http\Controllers\CardCategoryController::class, 'update'])->name('update-card-category');
+Route::get('/remove-card-category/{id}', [\App\Http\Controllers\CardCategoryController::class, 'destroy'])->name('remove-card-category');
+
+//gift cards
+

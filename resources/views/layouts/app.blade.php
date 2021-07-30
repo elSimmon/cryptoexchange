@@ -28,6 +28,7 @@
 
 </head>
 <body>
+@include('sweetalert::alert')
   <div class="container-scroller">
     <!-- partial:partials/_navbar.html -->
     @include('partials.navbar')

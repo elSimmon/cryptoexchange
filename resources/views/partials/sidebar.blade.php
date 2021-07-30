@@ -1,4 +1,4 @@
-<nav class="sidebar sidebar-dark" id="sidebar">
+<nav class="sidebar" id="sidebar">
   <ul class="nav">
     <li class="nav-item">
       <a class="nav-link" href="{{route('home')}}">
@@ -37,9 +37,15 @@
       </a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="">
+      <a class="nav-link" href="{{route('all-cards')}}">
         <i class="icon-watch menu-icon"></i>
-        <span class="menu-title">Trade Cards</span>
+        <span class="menu-title">Trade Gift Cards</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="{{route('manage-cards')}}">
+        <i class="icon-watch menu-icon"></i>
+        <span class="menu-title">Manage Gift Cards</span>
       </a>
     </li>
     <li class="nav-item">
