@@ -12,4 +12,12 @@ class Withdrawal extends Model
     public function User(){
         return $this->belongsTo('App\Models\User');
     }
+
+    public function bank(){
+        return $this->belongsTo(Bank::class);
+    }
+
+    public function wallet(){
+        return $this->belongsTo(Wallet::class);
+    }
 }

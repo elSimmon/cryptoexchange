@@ -77,5 +77,9 @@ class User extends Authenticatable
         return $this->hasOne('App\Models\Bitcoin');
     }
 
+    public function wallet(){
+        return $this->hasOne(Wallet::class);
+    }
+
 
 }

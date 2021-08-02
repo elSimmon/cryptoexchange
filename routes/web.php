@@ -46,3 +46,10 @@ Route::get('/remove-card-category/{id}', [\App\Http\Controllers\CardCategoryCont
 
 //gift cards
 
+
+//withdrawal
+Route::get('withdraw-funds', [\App\Http\Controllers\WithdrawalController::class, 'withdraw'])->name('withdraw');
+
+
+//bitcoin trade
+Route::get('convert-bitcoin', [\App\Http\Controllers\CointradeController::class, 'convert'])->name('convert-bitcoin');

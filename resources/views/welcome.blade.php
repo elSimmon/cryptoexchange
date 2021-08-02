@@ -20,17 +20,17 @@
     <title>iKHENT Exchange</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156446909-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
+{{--    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156446909-2"></script>--}}
+{{--    <script>--}}
+{{--      window.dataLayer = window.dataLayer || [];--}}
 
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "UA-156446909-2");
+{{--      function gtag() {--}}
+{{--        dataLayer.push(arguments);--}}
+{{--      }--}}
+{{--      gtag("js", new Date());--}}
+{{--      gtag("config", "UA-156446909-2");--}}
 
-    </script>
+{{--    </script>--}}
   </head>
   <body>
 

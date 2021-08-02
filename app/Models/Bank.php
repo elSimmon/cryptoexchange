@@ -16,4 +16,8 @@ class Bank extends Model
     public function user(){
         return $this->belongsTo('App\Models\User');
     }
+
+    public function withdrawal(){
+        return $this->hasMany(Withdrawal::class);
+    }
 }
