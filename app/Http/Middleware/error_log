@@ -1,0 +1,68 @@
+[30-Sep-2021 09:40:15 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Fideloper\Proxy\TrustProxies' not found in /home/ikheklue/public_html/appfiles/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Middleware/TrustProxies.php on line 8
+[30-Sep-2021 09:40:15 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Auth\Middleware\Authenticate' not found in /home/ikheklue/public_html/appfiles/app/Http/Middleware/Authenticate.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Middleware/Authenticate.php on line 7
+[30-Sep-2021 09:40:16 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance' not found in /home/ikheklue/public_html/appfiles/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[30-Sep-2021 09:40:16 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/ikheklue/public_html/appfiles/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[30-Sep-2021 09:40:19 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Cookie\Middleware\EncryptCookies' not found in /home/ikheklue/public_html/appfiles/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Middleware/EncryptCookies.php on line 7
+[30-Sep-2021 09:40:20 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Http\Middleware\TrustHosts' not found in /home/ikheklue/public_html/appfiles/app/Http/Middleware/TrustHosts.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Middleware/TrustHosts.php on line 7
+[30-Sep-2021 09:40:21 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\TrimStrings' not found in /home/ikheklue/public_html/appfiles/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Middleware/TrimStrings.php on line 7
+[30-Sep-2021 09:45:23 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Fideloper\Proxy\TrustProxies' not found in /home/ikheklue/public_html/appfiles/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Middleware/TrustProxies.php on line 8
+[30-Sep-2021 10:22:39 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance' not found in /home/ikheklue/public_html/appfiles/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[19-Dec-2021 22:58:30 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/ikheklue/public_html/appfiles/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Middleware/VerifyCsrfToken.php on line 7
+[20-Dec-2021 04:15:29 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\TrimStrings' not found in /home/ikheklue/public_html/appfiles/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Middleware/TrimStrings.php on line 7
+[24-Dec-2021 22:37:42 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance' not found in /home/ikheklue/public_html/appfiles/app/Http/Middleware/PreventRequestsDuringMaintenance.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Middleware/PreventRequestsDuringMaintenance.php on line 7
+[26-Dec-2021 08:50:43 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Auth\Middleware\Authenticate' not found in /home/ikheklue/public_html/appfiles/app/Http/Middleware/Authenticate.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Middleware/Authenticate.php on line 7
+[01-Jan-2022 10:44:55 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Cookie\Middleware\EncryptCookies' not found in /home/ikheklue/public_html/appfiles/app/Http/Middleware/EncryptCookies.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Middleware/EncryptCookies.php on line 7
+[04-Jan-2022 04:41:08 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Fideloper\Proxy\TrustProxies' not found in /home/ikheklue/public_html/appfiles/app/Http/Middleware/TrustProxies.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Middleware/TrustProxies.php on line 8
+[11-Jan-2022 08:02:08 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\TrimStrings' not found in /home/ikheklue/public_html/appfiles/app/Http/Middleware/TrimStrings.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Middleware/TrimStrings.php on line 7
+[15-Jan-2022 01:50:06 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Middleware\VerifyCsrfToken' not found in /home/ikheklue/public_html/appfiles/app/Http/Middleware/VerifyCsrfToken.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Middleware/VerifyCsrfToken.php on line 7

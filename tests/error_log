@@ -1,0 +1,16 @@
+[30-Sep-2021 09:38:13 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/ikheklue/public_html/appfiles/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/tests/TestCase.php on line 7
+[30-Sep-2021 09:44:46 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/ikheklue/public_html/appfiles/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/tests/TestCase.php on line 7
+[30-Sep-2021 09:56:32 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/ikheklue/public_html/appfiles/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/tests/TestCase.php on line 7
+[07-Jan-2022 01:05:08 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/ikheklue/public_html/appfiles/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/tests/TestCase.php on line 7

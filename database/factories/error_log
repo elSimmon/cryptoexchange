@@ -1,0 +1,8 @@
+[30-Sep-2021 09:38:54 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Factories\Factory' not found in /home/ikheklue/public_html/appfiles/database/factories/UserFactory.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/database/factories/UserFactory.php on line 9
+[30-Sep-2021 09:49:03 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Factories\Factory' not found in /home/ikheklue/public_html/appfiles/database/factories/UserFactory.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/database/factories/UserFactory.php on line 9

@@ -1,0 +1,12 @@
+[30-Sep-2021 09:39:26 America/New_York] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/ikheklue/public_html/appfiles/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/tests/Unit/ExampleTest.php on line 7
+[08-Oct-2021 02:00:51 America/New_York] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/ikheklue/public_html/appfiles/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/tests/Unit/ExampleTest.php on line 7
+[07-Jan-2022 05:29:48 America/New_York] PHP Fatal error:  Uncaught Error: Class 'PHPUnit\Framework\TestCase' not found in /home/ikheklue/public_html/appfiles/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/tests/Unit/ExampleTest.php on line 7

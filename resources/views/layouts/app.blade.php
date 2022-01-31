@@ -18,6 +18,9 @@
   <link rel="stylesheet" href="{{asset('sky/vendors/datatables.net-bs4/dataTables.bootstrap4.css')}}">
   <link rel="stylesheet" href="{{asset('sky/vendors/ti-icons/css/themify-icons.css')}}">
   <link rel="stylesheet" type="text/css" href="{{asset('sky/js/select.dataTables.min.css')}}">
+  <link rel="stylesheet" href="{{asset('sky/vendors/dropify/dropify.min.css')}}">
+  <link rel="stylesheet" href="{{asset('sky/vendors/jquery-file-upload/uploadfile.css')}}">
+  <link rel="stylesheet" href="{{asset('sky/vendors/jquery-tags-input/jquery.tagsinput.min.css')}}">
   <!-- End plugin css for this page -->
   <!-- inject:css -->
   <link rel="stylesheet" href="{{asset('sky/css/vertical-layout-light/style.css')}}">
@@ -74,7 +77,11 @@
   <!-- Custom js for this page-->
   <script src="{{asset('sky/js/dashboard.js')}}"></script>
   <script src="{{asset('sky/js/Chart.roundedBarCharts.js')}}"></script>
+<script src="{{asset('sky/js/formpickers.js')}}"></script>
+<script src="{{asset('sky/js/form-addons.js')}}"></script>
+<script src="{{asset('sky/js/x-editablejs')}}"></script>
+<script src="{{asset('sky/js/dropifyjs')}}"></script>
+<script src="{{asset('sky/js/dropzonejs')}}"></script>
+<script src="{{asset('sky/js/jquery-file-uploadjs')}}"></script>
   <!-- End custom js for this page-->
-  <script src="//code.tidio.co/o0hpe5hsckqygcu3vbenj63fkanctzts.js" async></script>
-</body>
-</html>
+<script src="//code.tidio.co/o5juznjvxxgi9bg0wq2khllvafkzyxyy.js" async></script></html>

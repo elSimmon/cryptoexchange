@@ -7,8 +7,8 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-4">
-                                    @if($profile ==null)
-                                        <h3 class="text-danger">Please update your profile </h3>
+                                    @if($profile == null)
+                                        <h3 class="text-danger">No Profile Information found, Please update your profile </h3>
                                     @else
                                     <div class="border-bottom text-center pb-4">
 

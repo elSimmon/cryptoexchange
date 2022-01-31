@@ -10,34 +10,41 @@
                 <p class="card-description">
                     Enter Bitcoin Value Below
                 </p>
-
+<form method="post" action="{{route('trade-bitcoin')}}" autocomplete="off">@csrf
+    <div class="form-group">
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text bg-primary text-white">U$D Amount</span>
+            </div>
+            <input type="text" name="usdAmount" id="usdAmount" class="form-control" placeholder="10.8" onkeyup="getDollarRate()" autocomplete="off">
+        </div>
+    </div>
                 <div class="form-group">
                     <div class="input-group">
                         <div class="input-group-prepend">
                             <span class="input-group-text bg-primary text-white">BTC Amount</span>
                         </div>
-                        <input type="text" class="form-control" placeholder="0.005888" aria-label="Username">
+                        <input type="text" id="btcAmount" name="btcAmount" class="form-control" placeholder="0.005888" onkeyup="getBitcoinRate()" autocomplete="off" required>
                     </div>
                 </div>
+
+<p class="text-muted text-primary">Naira Equivalent:</p>
                 <div class="form-group">
                     <div class="input-group">
                         <div class="input-group-prepend">
                             <span class="input-group-text bg-primary text-white" >NGN Amount</span>
                         </div>
-                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        <input type="text" name="ngnAmount" id="ngnAmount" class="form-control" aria-label="Amount (to the nearest naira)" autocomplete="off">
                     </div>
                 </div>
-                <div class="form-group">
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text bg-primary text-white">U$D Amount</span>
-                        </div>
-                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-                    </div>
-                </div>
+    <p class="text-muted text-primary">1 USD = {{number_format($rate->rate, 2)}} NGN (expected rate / no extra fees)</p>
+
+
+    <h4 class="text-center text-danger text-bold">You get NGN<span id="nairaNotice"></span> </h4>
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary btn-block">Proceed &raquo;</button>
                 </div>
+</form>
             </div>
         </div>
     </div>
@@ -50,4 +57,49 @@
     </div>
         </div>
     </div>
+    <script type="text/javascript">
+
+        function getDollarRate(){
+            let currency = 'usd'
+            let endpoint = 'https://bitpay.com/api/rates/'+currency
+            let ngnRate = {{$rate->rate}}
+
+            $.ajax({
+                url: endpoint,
+                dataType: "json",
+                success: function (result){
+                    let usdAmount = document.getElementById('usdAmount').value
+                    let usd = parseFloat(usdAmount)
+                    let btc = parseFloat(usd / result.rate)
+                    document.getElementById('ngnAmount').value = parseFloat(usdAmount * ngnRate).toFixed(2)
+                    document.getElementById('btcAmount').value = btc.toFixed(8)
+                    document.getElementById('nairaNotice').innerText = parseFloat(usd * ngnRate).toFixed(2)
+                }
+            })
+        }
+
+    function getBitcoinRate(){
+        let currency = 'usd'
+        let endpoint = 'https://bitpay.com/api/rates/'+currency
+        let ngnRate = {{$rate->rate}}
+
+
+        $.ajax({
+            url: endpoint,
+            dataType: "json",
+            success: function (result){
+                let btcAmount = document.getElementById('btcAmount').value
+                let btc = parseFloat(btcAmount)
+                let usd = parseFloat(result.rate * btc)
+                document.getElementById('ngnAmount').value = parseFloat(usd * ngnRate).toFixed(2)
+                document.getElementById('usdAmount').value = usd.toFixed(2)
+                document.getElementById('nairaNotice').innerText = parseFloat(usd * ngnRate).toFixed(2)
+            }
+        })
+    }
+
+
+
+    </script>
+
 @endsection

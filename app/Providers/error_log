@@ -1,0 +1,64 @@
+[30-Sep-2021 09:39:28 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/ikheklue/public_html/appfiles/app/Providers/AppServiceProvider.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Providers/AppServiceProvider.php on line 12
+[30-Sep-2021 09:40:47 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\EventServiceProvider' not found in /home/ikheklue/public_html/appfiles/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Providers/EventServiceProvider.php on line 10
+[30-Sep-2021 09:40:49 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\AuthServiceProvider' not found in /home/ikheklue/public_html/appfiles/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Providers/AuthServiceProvider.php on line 8
+[30-Sep-2021 09:40:49 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/ikheklue/public_html/appfiles/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Providers/BroadcastServiceProvider.php on line 8
+[30-Sep-2021 09:40:51 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\RouteServiceProvider' not found in /home/ikheklue/public_html/appfiles/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Providers/RouteServiceProvider.php on line 11
+[30-Sep-2021 09:44:36 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/ikheklue/public_html/appfiles/app/Providers/AppServiceProvider.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Providers/AppServiceProvider.php on line 12
+[30-Sep-2021 10:21:47 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\RouteServiceProvider' not found in /home/ikheklue/public_html/appfiles/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Providers/RouteServiceProvider.php on line 11
+[30-Sep-2021 10:22:37 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/ikheklue/public_html/appfiles/app/Providers/AppServiceProvider.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Providers/AppServiceProvider.php on line 12
+[30-Sep-2021 10:23:30 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/ikheklue/public_html/appfiles/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Providers/BroadcastServiceProvider.php on line 8
+[30-Sep-2021 10:24:49 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\EventServiceProvider' not found in /home/ikheklue/public_html/appfiles/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Providers/EventServiceProvider.php on line 10
+[30-Sep-2021 10:26:05 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\AuthServiceProvider' not found in /home/ikheklue/public_html/appfiles/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Providers/AuthServiceProvider.php on line 8
+[07-Oct-2021 22:04:44 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\AuthServiceProvider' not found in /home/ikheklue/public_html/appfiles/app/Providers/AuthServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Providers/AuthServiceProvider.php on line 8
+[07-Oct-2021 22:04:47 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/ikheklue/public_html/appfiles/app/Providers/BroadcastServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Providers/BroadcastServiceProvider.php on line 8
+[07-Oct-2021 22:04:48 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\RouteServiceProvider' not found in /home/ikheklue/public_html/appfiles/app/Providers/RouteServiceProvider.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Providers/RouteServiceProvider.php on line 11
+[07-Oct-2021 22:04:49 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Support\Providers\EventServiceProvider' not found in /home/ikheklue/public_html/appfiles/app/Providers/EventServiceProvider.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Providers/EventServiceProvider.php on line 10
+[07-Oct-2021 22:04:52 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Support\ServiceProvider' not found in /home/ikheklue/public_html/appfiles/app/Providers/AppServiceProvider.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Providers/AppServiceProvider.php on line 12

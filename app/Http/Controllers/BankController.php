@@ -10,6 +10,11 @@ use Illuminate\Support\Facades\DB;
 class BankController extends Controller
 {
     //
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+    
     public function index(){
         $banks = Bank::all();
         return view('banks.index')->withBanks($banks);
@@ -32,9 +37,14 @@ class BankController extends Controller
         $bank->name = $request->name;
         $bank->account_type = $request->account_type;
         $bank->account_number = $request->account_number;
-        $bank->bvn = $request->bvn;
-        $bank->swift_code = $request->swift_code;
+//        $bank->bvn = $request->bvn;
+//        $bank->swift_code = $request->swift_code;
         $bank->save();
-        return redirect()->route('create-bank-details');
+        return redirect()->route('create-bank-details')->with('success', 'Account number added');
+    }
+
+    public function destroy($id){
+        Bank::where('id', $id)->delete();
+        return redirect()->route('create-bank-details')->with('error', 'Bank Account Removed');
     }
 }

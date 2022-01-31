@@ -51,16 +51,16 @@
                                     </div>
                                     <div class="form-group has-danger">
                                         <label for="account_number">Account Number (required)</label>
-                                        <input id="account_number" class="form-control form-control-danger" type="number" maxlength="10" name="account_number" required=""><label id="account_number-error" class="error mt-2 text-danger" for="account_number">This field is required.</label>
+                                        <input id="account_number" class="form-control form-control-danger" type="text" maxlength="10" name="account_number" required=""><label id="account_number-error" class="error mt-2 text-danger" for="account_number">This field is required.</label>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="bvn">BVN (optional)</label>
-                                        <input id="bvn" class="form-control valid" type="text" name="bvn">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="swift_code">SWIFT CODE (optional)</label>
-                                        <input id="swift_code" class="form-control valid" type="text" name="swift_code">
-                                    </div>
+{{--                                    <div class="form-group">--}}
+{{--                                        <label for="bvn">BVN (optional)</label>--}}
+{{--                                        <input id="bvn" class="form-control valid" type="text" name="bvn">--}}
+{{--                                    </div>--}}
+{{--                                    <div class="form-group">--}}
+{{--                                        <label for="swift_code">SWIFT CODE (optional)</label>--}}
+{{--                                        <input id="swift_code" class="form-control valid" type="text" name="swift_code">--}}
+{{--                                    </div>--}}
                                     <input class="btn btn-primary btn-block" type="submit" value="Add Bank">
                                 </fieldset>
                             </form>
@@ -69,7 +69,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-7">
                     <div class="card">
                         <div class="card-body table-responsive">
                             <h4 class="card-title">My Bank Accounts</h4>
@@ -78,9 +78,7 @@
                                 <th>Bank Name</th>
                                 <th>Account Type</th>
                                 <th>Account Number</th>
-                                <th>BVN</th>
-                                <th>Swift Code</th>
-                                <th colspan="2">Actions</th>
+{{--                                <th>Actions</th>--}}
                                 </thead>
                                 <tbody>
                                 @foreach($banks as $bank)
@@ -88,10 +86,7 @@
                                     <td>{{$bank->name}}</td>
                                     <td>{{$bank->account_type}}</td>
                                     <td>{{$bank->account_number}}</td>
-                                    <td>{{$bank->bvn}}</td>
-                                    <td>{{$bank->swift_code}}</td>
-                                    <td><a class="btn btn-sm btn-danger" href="">remove</a> </td>
-                                    <td><a class="btn btn-sm btn-primary" href="">edit</a> </td>
+{{--                                    <td><a class="btn btn-sm btn-danger" href="{{route('remove-bank', [$bank->id])}}">remove</a> </td>--}}
                                 </tr>
                                 @endforeach
                                 </tbody>

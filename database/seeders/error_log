@@ -1,0 +1,12 @@
+[30-Sep-2021 09:39:33 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Seeder' not found in /home/ikheklue/public_html/appfiles/database/seeders/DatabaseSeeder.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/database/seeders/DatabaseSeeder.php on line 7
+[30-Sep-2021 09:51:14 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Seeder' not found in /home/ikheklue/public_html/appfiles/database/seeders/DatabaseSeeder.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/database/seeders/DatabaseSeeder.php on line 7
+[30-Sep-2021 10:08:13 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Seeder' not found in /home/ikheklue/public_html/appfiles/database/seeders/DatabaseSeeder.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/database/seeders/DatabaseSeeder.php on line 7

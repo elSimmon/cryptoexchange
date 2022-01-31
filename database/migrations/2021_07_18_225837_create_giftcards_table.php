@@ -20,6 +20,8 @@ class CreateGiftcardsTable extends Migration
             $table->string('type');
             $table->string('denomination');
             $table->double('rate');
+            $table->bigInteger('min');
+            $table->bigInteger('max');
             $table->timestamps();
         });
     }

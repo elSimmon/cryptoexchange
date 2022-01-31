@@ -28430,7 +28430,7 @@ div.tagsinput span.tag a {
 /* Sidebar */
 .sidebar {
   min-height: calc(100vh - 60px);
-  background: #180d0d;
+  background: #ffffff;
   font-family: "Nunito", sans-serif;
   font-weight: 500;
   padding: 0;
@@ -28469,7 +28469,7 @@ div.tagsinput span.tag a {
   align-items: center;
   white-space: nowrap;
   padding: 0.8125rem 1.937rem 0.8125rem 1rem;
-  color: #6C7383;
+  color: #021136;
   border-radius: 8px;
   -webkit-transition-duration: 0.45s;
   -moz-transition-duration: 0.45s;
@@ -28487,7 +28487,7 @@ div.tagsinput span.tag a {
   font-size: 1rem;
   line-height: 1;
   margin-right: 1rem;
-  color: #6C7383;
+  color: #021136;
 }
 
 .rtl .sidebar .nav .nav-item .nav-link i.menu-icon {
@@ -28754,7 +28754,7 @@ div.tagsinput span.tag a {
 }
 
 .navbar .navbar-brand-wrapper {
-  background: #232227;
+  background: #ffffff;
   transition: width 0.25s ease, background 0.25s ease;
   -webkit-transition: width 0.25s ease, background 0.25s ease;
   -moz-transition: width 0.25s ease, background 0.25s ease;
@@ -28764,11 +28764,11 @@ div.tagsinput span.tag a {
 }
 
 .sidebar-dark .navbar .navbar-brand-wrapper {
-  background: #232227;
+  background: #FFFFFF;
 }
 
 .navbar .navbar-brand-wrapper .navbar-brand {
-  color: #27367f;
+  color: #FFFFFF;
   font-size: 1.5rem;
   margin-right: 0;
   padding: .25rem 0;

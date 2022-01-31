@@ -1,0 +1,48 @@
+[30-Sep-2021 09:49:03 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/ikheklue/public_html/appfiles/database/migrations/2021_07_18_171443_create_transactions_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/database/migrations/2021_07_18_171443_create_transactions_table.php on line 7
+[30-Sep-2021 09:49:04 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/ikheklue/public_html/appfiles/database/migrations/2021_07_18_225837_create_giftcards_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/database/migrations/2021_07_18_225837_create_giftcards_table.php on line 7
+[30-Sep-2021 09:49:39 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/ikheklue/public_html/appfiles/database/migrations/2014_10_12_000000_create_users_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[30-Sep-2021 09:51:00 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/ikheklue/public_html/appfiles/database/migrations/2021_08_12_201626_create_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/database/migrations/2021_08_12_201626_create_jobs_table.php on line 7
+[30-Sep-2021 09:51:32 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/ikheklue/public_html/appfiles/database/migrations/2021_07_19_094212_create_withdrawals_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/database/migrations/2021_07_19_094212_create_withdrawals_table.php on line 7
+[30-Sep-2021 09:52:05 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/ikheklue/public_html/appfiles/database/migrations/2021_07_18_173258_create_bitcoins_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/database/migrations/2021_07_18_173258_create_bitcoins_table.php on line 7
+[30-Sep-2021 09:52:26 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/ikheklue/public_html/appfiles/database/migrations/2021_07_18_173205_create_banks_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/database/migrations/2021_07_18_173205_create_banks_table.php on line 7
+[30-Sep-2021 09:53:11 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/ikheklue/public_html/appfiles/database/migrations/2021_07_19_101433_create_cointrades_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/database/migrations/2021_07_19_101433_create_cointrades_table.php on line 7
+[30-Sep-2021 09:53:30 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/ikheklue/public_html/appfiles/database/migrations/2021_07_19_101340_create_cardtrades_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/database/migrations/2021_07_19_101340_create_cardtrades_table.php on line 7
+[30-Sep-2021 09:54:41 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/ikheklue/public_html/appfiles/database/migrations/2014_10_12_100000_create_password_resets_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/database/migrations/2014_10_12_100000_create_password_resets_table.php on line 7
+[30-Sep-2021 09:56:35 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/ikheklue/public_html/appfiles/database/migrations/2021_07_18_173012_create_profiles_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/database/migrations/2021_07_18_173012_create_profiles_table.php on line 7
+[30-Sep-2021 10:22:42 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Migrations\Migration' not found in /home/ikheklue/public_html/appfiles/database/migrations/2019_08_19_000000_create_failed_jobs_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/database/migrations/2019_08_19_000000_create_failed_jobs_table.php on line 7

@@ -1,0 +1,16 @@
+[30-Sep-2021 09:39:50 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/ikheklue/public_html/appfiles/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Console/Kernel.php on line 8
+[30-Sep-2021 09:57:49 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/ikheklue/public_html/appfiles/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Console/Kernel.php on line 8
+[30-Sep-2021 10:19:17 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/ikheklue/public_html/appfiles/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Console/Kernel.php on line 8
+[05-Jan-2022 23:01:32 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Console\Kernel' not found in /home/ikheklue/public_html/appfiles/app/Console/Kernel.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Console/Kernel.php on line 8

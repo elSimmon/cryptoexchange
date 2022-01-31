@@ -1,0 +1,8 @@
+[30-Sep-2021 09:41:17 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Kernel' not found in /home/ikheklue/public_html/appfiles/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Kernel.php on line 7
+[31-Dec-2021 10:57:22 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Http\Kernel' not found in /home/ikheklue/public_html/appfiles/app/Http/Kernel.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Kernel.php on line 7

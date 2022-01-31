@@ -1,0 +1,15 @@
+[30-Sep-2021 09:39:23 America/New_York] PHP Fatal error:  Trait 'Illuminate\Foundation\Bus\Dispatchable' not found in /home/ikheklue/public_html/appfiles/app/Jobs/HandleFailedCharge.php on line 17
+[30-Sep-2021 09:39:25 America/New_York] PHP Fatal error:  Trait 'Illuminate\Foundation\Bus\Dispatchable' not found in /home/ikheklue/public_html/appfiles/app/Jobs/HandleCreatedCharge.php on line 17
+[30-Sep-2021 09:39:26 America/New_York] PHP Fatal error:  Trait 'Illuminate\Foundation\Bus\Dispatchable' not found in /home/ikheklue/public_html/appfiles/app/Jobs/HandleConfirmedCharge.php on line 18
+[30-Sep-2021 09:41:53 America/New_York] PHP Fatal error:  Trait 'Illuminate\Foundation\Bus\Dispatchable' not found in /home/ikheklue/public_html/appfiles/app/Jobs/HandlePendingCharge.php on line 14
+[30-Sep-2021 09:42:17 America/New_York] PHP Fatal error:  Trait 'Illuminate\Foundation\Bus\Dispatchable' not found in /home/ikheklue/public_html/appfiles/app/Jobs/HandleDelayedCharge.php on line 14
+[30-Sep-2021 09:44:48 America/New_York] PHP Fatal error:  Trait 'Illuminate\Foundation\Bus\Dispatchable' not found in /home/ikheklue/public_html/appfiles/app/Jobs/HandleConfirmedCharge.php on line 18
+[30-Sep-2021 09:44:49 America/New_York] PHP Fatal error:  Trait 'Illuminate\Foundation\Bus\Dispatchable' not found in /home/ikheklue/public_html/appfiles/app/Jobs/HandleFailedCharge.php on line 17
+[30-Sep-2021 09:44:50 America/New_York] PHP Fatal error:  Trait 'Illuminate\Foundation\Bus\Dispatchable' not found in /home/ikheklue/public_html/appfiles/app/Jobs/HandleCreatedCharge.php on line 17
+[30-Sep-2021 09:45:54 America/New_York] PHP Fatal error:  Trait 'Illuminate\Foundation\Bus\Dispatchable' not found in /home/ikheklue/public_html/appfiles/app/Jobs/HandleResolvedCharge.php on line 14
+[30-Sep-2021 09:45:55 America/New_York] PHP Fatal error:  Trait 'Illuminate\Foundation\Bus\Dispatchable' not found in /home/ikheklue/public_html/appfiles/app/Jobs/HandleResolvedCharge.php on line 14
+[30-Sep-2021 09:58:29 America/New_York] PHP Fatal error:  Trait 'Illuminate\Foundation\Bus\Dispatchable' not found in /home/ikheklue/public_html/appfiles/app/Jobs/HandleFailedCharge.php on line 17
+[30-Sep-2021 09:58:30 America/New_York] PHP Fatal error:  Trait 'Illuminate\Foundation\Bus\Dispatchable' not found in /home/ikheklue/public_html/appfiles/app/Jobs/HandleCreatedCharge.php on line 17
+[30-Sep-2021 09:58:32 America/New_York] PHP Fatal error:  Trait 'Illuminate\Foundation\Bus\Dispatchable' not found in /home/ikheklue/public_html/appfiles/app/Jobs/HandleConfirmedCharge.php on line 18
+[30-Sep-2021 10:01:51 America/New_York] PHP Fatal error:  Trait 'Illuminate\Foundation\Bus\Dispatchable' not found in /home/ikheklue/public_html/appfiles/app/Jobs/HandlePendingCharge.php on line 14
+[30-Sep-2021 10:04:06 America/New_York] PHP Fatal error:  Trait 'Illuminate\Foundation\Bus\Dispatchable' not found in /home/ikheklue/public_html/appfiles/app/Jobs/HandleDelayedCharge.php on line 14

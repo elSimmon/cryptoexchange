@@ -1,0 +1,72 @@
+[30-Sep-2021 10:07:48 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/LoginController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/LoginController.php on line 10
+[30-Sep-2021 10:07:48 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/ForgotPasswordController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/ForgotPasswordController.php on line 8
+[30-Sep-2021 10:07:48 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/ResetPasswordController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/ResetPasswordController.php on line 9
+[30-Sep-2021 10:07:49 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/ConfirmPasswordController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/ConfirmPasswordController.php on line 9
+[30-Sep-2021 10:07:51 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/RegisterController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/RegisterController.php on line 12
+[30-Sep-2021 10:07:52 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/VerificationController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/VerificationController.php on line 9
+[30-Sep-2021 10:14:43 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/VerificationController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/VerificationController.php on line 9
+[30-Sep-2021 10:14:43 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/RegisterController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/RegisterController.php on line 12
+[30-Sep-2021 10:23:26 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/ConfirmPasswordController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/ConfirmPasswordController.php on line 9
+[30-Sep-2021 10:24:50 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/ForgotPasswordController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/ForgotPasswordController.php on line 8
+[18-Dec-2021 20:32:04 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/ForgotPasswordController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/ForgotPasswordController.php on line 8
+[22-Dec-2021 17:51:17 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/RegisterController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/RegisterController.php on line 12
+[25-Dec-2021 16:43:08 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/ResetPasswordController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/ResetPasswordController.php on line 9
+[26-Dec-2021 12:22:12 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/ConfirmPasswordController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/ConfirmPasswordController.php on line 9
+[02-Jan-2022 16:19:50 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/LoginController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/LoginController.php on line 10
+[05-Jan-2022 06:51:42 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/ForgotPasswordController.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/ForgotPasswordController.php on line 8
+[08-Jan-2022 07:37:19 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/VerificationController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/VerificationController.php on line 9
+[09-Jan-2022 22:00:52 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/RegisterController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Auth/RegisterController.php on line 12

@@ -1,0 +1,8 @@
+[30-Sep-2021 09:38:55 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Tests\TestCase' not found in /home/ikheklue/public_html/appfiles/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/tests/Feature/ExampleTest.php on line 8
+[30-Dec-2021 21:20:52 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Tests\TestCase' not found in /home/ikheklue/public_html/appfiles/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/tests/Feature/ExampleTest.php on line 8

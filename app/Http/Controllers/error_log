@@ -1,0 +1,132 @@
+[30-Sep-2021 09:40:24 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/MessageController.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/MessageController.php on line 7
+[30-Sep-2021 09:40:24 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/UserController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/UserController.php on line 10
+[30-Sep-2021 09:40:25 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/TransactionController.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/TransactionController.php on line 7
+[30-Sep-2021 09:40:25 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/WalletController.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/WalletController.php on line 7
+[30-Sep-2021 09:40:26 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/GiftcardController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/GiftcardController.php on line 12
+[30-Sep-2021 09:40:27 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/RateController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/RateController.php on line 9
+[30-Sep-2021 09:40:27 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/HomeController.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/HomeController.php on line 14
+[30-Sep-2021 09:40:28 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/ProfileController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/ProfileController.php on line 10
+[30-Sep-2021 09:40:29 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/CointradeController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/CointradeController.php on line 12
+[30-Sep-2021 09:40:29 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/CardCategoryController.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/CardCategoryController.php on line 13
+[30-Sep-2021 09:40:30 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/BitcoinController.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/BitcoinController.php on line 7
+[30-Sep-2021 09:40:30 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/BankController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/BankController.php on line 10
+[30-Sep-2021 09:40:30 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/CardtradeController.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/CardtradeController.php on line 16
+[30-Sep-2021 09:40:33 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/WithdrawalController.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/WithdrawalController.php on line 13
+[30-Sep-2021 09:40:36 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Routing\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Controller.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Controller.php on line 11
+[16-Dec-2021 19:03:34 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/WithdrawalController.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/WithdrawalController.php on line 18
+[20-Dec-2021 15:21:10 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/TransactionController.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/TransactionController.php on line 7
+[26-Dec-2021 01:54:51 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/UserController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/UserController.php on line 10
+[26-Dec-2021 02:00:57 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/GiftcardController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/GiftcardController.php on line 12
+[27-Dec-2021 06:45:33 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/RateController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/RateController.php on line 9
+[27-Dec-2021 13:17:18 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/CardtradeController.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/CardtradeController.php on line 18
+[27-Dec-2021 14:47:14 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/ProfileController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/ProfileController.php on line 11
+[28-Dec-2021 19:25:19 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/BankController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/BankController.php on line 10
+[29-Dec-2021 00:16:59 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/CointradeController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/CointradeController.php on line 12
+[01-Jan-2022 14:58:01 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/WithdrawalController.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/WithdrawalController.php on line 19
+[05-Jan-2022 07:39:52 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Routing\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Controller.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/Controller.php on line 11
+[07-Jan-2022 14:57:53 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/CardCategoryController.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/CardCategoryController.php on line 13
+[09-Jan-2022 20:11:53 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/UserController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/UserController.php on line 10
+[09-Jan-2022 21:34:31 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/CointradeController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/CointradeController.php on line 12
+[10-Jan-2022 01:58:15 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/MessageController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/MessageController.php on line 10
+[10-Jan-2022 08:29:02 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/BankController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/BankController.php on line 10
+[10-Jan-2022 21:02:52 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/RateController.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/RateController.php on line 9
+[13-Jan-2022 07:15:11 America/New_York] PHP Fatal error:  Uncaught Error: Class 'App\Http\Controllers\Controller' not found in /home/ikheklue/public_html/appfiles/app/Http/Controllers/TransactionController.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Http/Controllers/TransactionController.php on line 7

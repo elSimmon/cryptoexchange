@@ -1,0 +1,16 @@
+[30-Sep-2021 09:38:30 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/ikheklue/public_html/appfiles/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/bootstrap/app.php on line 14
+[30-Sep-2021 09:56:33 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/ikheklue/public_html/appfiles/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/bootstrap/app.php on line 14
+[07-Oct-2021 14:53:48 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/ikheklue/public_html/appfiles/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/bootstrap/app.php on line 14
+[05-Jan-2022 11:59:19 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/ikheklue/public_html/appfiles/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/bootstrap/app.php on line 14

@@ -1,0 +1,128 @@
+[30-Sep-2021 09:39:31 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Transaction.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Transaction.php on line 8
+[30-Sep-2021 09:39:31 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Giftcard.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Giftcard.php on line 8
+[30-Sep-2021 09:39:32 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Profile.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Profile.php on line 8
+[30-Sep-2021 09:39:32 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Message.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Message.php on line 8
+[30-Sep-2021 09:39:33 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/ikheklue/public_html/appfiles/app/Models/User.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/User.php on line 10
+[30-Sep-2021 09:39:33 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/CardCategory.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/CardCategory.php on line 8
+[30-Sep-2021 09:39:34 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Cardtrade.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Cardtrade.php on line 8
+[30-Sep-2021 09:39:35 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Cointrade.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Cointrade.php on line 8
+[30-Sep-2021 09:39:36 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Wallet.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Wallet.php on line 8
+[30-Sep-2021 09:39:36 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Rate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Rate.php on line 8
+[30-Sep-2021 09:39:37 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Bank.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Bank.php on line 8
+[30-Sep-2021 09:39:38 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Bitcoin.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Bitcoin.php on line 8
+[30-Sep-2021 09:39:38 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Withdrawal.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Withdrawal.php on line 8
+[30-Sep-2021 09:47:24 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Profile.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Profile.php on line 8
+[30-Sep-2021 09:47:24 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/ikheklue/public_html/appfiles/app/Models/User.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/User.php on line 10
+[30-Sep-2021 09:47:25 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Transaction.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Transaction.php on line 8
+[30-Sep-2021 09:47:25 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Wallet.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Wallet.php on line 8
+[30-Sep-2021 09:47:25 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Bank.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Bank.php on line 8
+[30-Sep-2021 09:47:27 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Withdrawal.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Withdrawal.php on line 8
+[30-Sep-2021 09:48:09 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/CardCategory.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/CardCategory.php on line 8
+[30-Sep-2021 09:48:31 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Giftcard.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Giftcard.php on line 8
+[30-Sep-2021 09:48:31 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Cardtrade.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Cardtrade.php on line 8
+[30-Sep-2021 09:50:44 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Message.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Message.php on line 8
+[30-Sep-2021 09:52:26 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Rate.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Rate.php on line 8
+[30-Sep-2021 09:52:35 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Cointrade.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Cointrade.php on line 8
+[30-Sep-2021 10:07:38 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Bitcoin.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Bitcoin.php on line 8
+[31-Dec-2021 11:33:43 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Transaction.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Transaction.php on line 8
+[31-Dec-2021 12:02:55 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Cointrade.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Cointrade.php on line 8
+[01-Jan-2022 10:50:43 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Auth\User' not found in /home/ikheklue/public_html/appfiles/app/Models/User.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/User.php on line 10
+[02-Jan-2022 05:38:39 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Message.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Message.php on line 8
+[03-Jan-2022 20:44:11 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Withdrawal.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Withdrawal.php on line 8
+[04-Jan-2022 17:21:03 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Model' not found in /home/ikheklue/public_html/appfiles/app/Models/Cardtrade.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/app/Models/Cardtrade.php on line 8

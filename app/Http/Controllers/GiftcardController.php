@@ -12,6 +12,11 @@ use Intervention\Image\Image;
 class GiftcardController extends Controller
 {
     //
+    public function __construct()
+    {
+        $this->middleware(['auth', 'verified']);
+    }
+
     public function index(){
         $gift_cards = Giftcard::all('*');
         return view('gift_cards.index', [$gift_cards]);
@@ -23,20 +28,27 @@ class GiftcardController extends Controller
 
     public function store(Request $request){
         $request->validate([
-            'name' => 'required|string',
-            'image' => 'required|image',
+            'card_category_id' => 'required',
+            'country' => 'required',
+            'card_type' => 'required',
+            'denomination' => 'required|string',
+            'rate' => 'required|numeric',
+            'min' => 'required|numeric',
+            'max' => 'required|numeric',
         ]);
 
-        $gift_card = new Giftcard();
-        $gift_card->card_category_id = $request->card_category_id;
-        $gift_card->country = $request->country;
-        $gift_card->type = $request->type;
-        $gift_card->denomination = $request->denomination;
-        $gift_card->rate = $request->rate;
+        $giftcard = new Giftcard();
+        $giftcard->card_category_id = $request->card_category_id;
+        $giftcard->country = $request->country;
+        $giftcard->type = $request->card_type;
+        $giftcard->denomination = $request->denomination;
+        $giftcard->rate = $request->rate;
+        $giftcard->min = $request->min;
+        $giftcard->max = $request->max;
 
-        $gift_card->save();
-        return redirect()->route('new-card-category');
-    }
+        $giftcard->save();
+        toast('Gift Card has been Saved!','success');
+        return redirect()->route('manage-cards');    }
 
     public function show($id){
         $card_category = CardCategory::find($id);
@@ -44,29 +56,31 @@ class GiftcardController extends Controller
     }
 
     public function edit($id){
-        $card_category = CardCategory::find($id);
-        return view('card_categories.edit')->withCardCategory($card_category);
+        $categories = CardCategory::all();
+        $giftcard = Giftcard::find($id);
+        return view('gift_cards.edit', compact('giftcard', 'categories'));
     }
 
-    public function update(Request $request){
+    public function update(Request $request, $id){
         $request->validate([
-            'name' => 'required|string',
-            'image' => 'required|image',
+            'card_category_id' => 'required',
+            'country' => 'required',
+            'card_type' => 'required',
+            'denomination' => 'required|string',
+            'rate' => 'required|numeric',
+            'min' => 'required|numeric',
+            'max' => 'required|numeric',
         ]);
 
-        DB::table('card_categories')->where('id', $request->id)->update(['name'=>$request->name]);
-        if($request->hasFile('image')){
-            $image = $request->file('image');
-            $filename = time().'.'.$image->getClientOriginalExtension();
-            $location = public_path('images/cards'.$filename);
-            Image::make($image)->save($location);
-            DB::table('card_categories')->where('id', $request->id)->update(['image'=>$filename]);
-        }
-        return back();
+        DB::table('giftcards')->where('id', $id)->update(['country'=>$request->country, 'type'=>$request->card_type, 'denomination'=>$request->denomination, 'rate'=>$request->rate, 'min'=>$request->min, 'max'=>$request->max, 'card_category_id'=>$request->card_category_id]);
+
+        toast('GiftCard has been updated!','success');
+        return redirect()->route('manage-cards');
     }
 
     public function destroy($id){
-        CardCategory::where('id', $id)->delete();
-        return back();
+        Giftcard::find($id)->delete();
+        toast('GiftCard Removed!','error');
+        return redirect()->route('manage-cards');
     }
 }

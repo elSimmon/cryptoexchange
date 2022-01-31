@@ -91,8 +91,12 @@
                 <input type="password" class="form-control" id="password" placeholder="Repeat password" name="password_confirmation" required autocomplete="new-password">
               </div>
 
+                <div class="form-group">
+                    <input type="checkbox"   id="termsChkbx " onchange="isChecked(this, 'sub1')" /> I have read and agreed to all <a href="{{route('terms')}}">Terms of Use</a> and the <a href="{{route('our-policy')}}">Privacy Policy.</a>
+                </div>
+
               <!-- Submit -->
-              <button class="btn w-100 btn-primary" type="submit">
+              <button class="btn w-100 btn-primary" id="sub1" type="submit" id="sub1" disabled="disabled">
                 Sign up
               </button>
 
@@ -128,5 +132,10 @@
     <!-- Theme JS -->
     <script src="{{asset('landkit/assets/js/theme.bundle.js')}}"></script>
 
+  <script type="text/javascript">
+      function isChecked(checkbox, sub1) {
+          document.getElementById(sub1).disabled = !checkbox.checked;
+      }
+  </script>
   </body>
 </html>

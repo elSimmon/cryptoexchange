@@ -2,12 +2,11 @@
 
 namespace App\Providers;
 
-use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
-use Schema;
+use Illuminate\Support\Facades\Schema;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -29,25 +28,9 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         View::share('key', 'value');
+        Schema::defaultStringLength(191);
 
-        return Schema::defaultStringLength(191);
-//        $my_profile = User::find(1)->profile;
-//        $my_profile = DB::table('profiles')->where('user_id', '==', Auth::id())->get();
-
-
-        //compose all the views....
-//        view()->composer('*', function ($view)
-//        {
-//            $id = Auth::user()->id;
-//            $my_profile = DB::table('profiles')->where('user_id', $id)->first();
-//            View::share('my_profile', $my_profile);
-//
-//            //...with this variable
-//            $view->with('my_profile', $my_profile );
-//        });
-
-
-
-
+        $notifications = DB::table('messages')->where('read', '1')->where('user_id', Auth::user())->get();
+        View::share('shareddata', $notifications);
     }
 }

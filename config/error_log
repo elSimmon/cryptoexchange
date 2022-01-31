@@ -1,0 +1,168 @@
+[30-Sep-2021 09:38:28 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/hashing.php on line 32
+[30-Sep-2021 09:38:31 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/filesystems.php on line 16
+[30-Sep-2021 09:38:32 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/logging.php on line 20
+[30-Sep-2021 09:38:32 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/database.php on line 18
+[30-Sep-2021 09:38:34 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/cache.php on line 18
+[30-Sep-2021 09:38:35 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/ikheklue/public_html/appfiles/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/view.php on line 17
+[30-Sep-2021 09:38:41 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/app.php on line 16
+[30-Sep-2021 09:38:43 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/session.php on line 21
+[30-Sep-2021 09:38:45 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/services.php on line 18
+[30-Sep-2021 09:38:46 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/mail.php on line 16
+[30-Sep-2021 09:38:46 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/broadcasting.php on line 18
+[30-Sep-2021 09:38:47 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/queue.php on line 16
+[30-Sep-2021 09:43:57 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/coinbase.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/coinbase.php on line 5
+[30-Sep-2021 09:46:49 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/sweetalert.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/sweetalert.php on line 15
+[01-Oct-2021 03:19:50 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/database.php on line 18
+[01-Oct-2021 03:19:58 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/cache.php on line 18
+[01-Oct-2021 03:20:00 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/logging.php on line 20
+[01-Oct-2021 03:20:02 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/session.php on line 21
+[01-Oct-2021 03:20:05 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/hashing.php on line 32
+[01-Oct-2021 03:20:07 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/filesystems.php on line 16
+[01-Oct-2021 03:20:13 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/ikheklue/public_html/appfiles/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/view.php on line 17
+[01-Oct-2021 03:20:15 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/queue.php on line 16
+[01-Oct-2021 03:25:35 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/sweetalert.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/sweetalert.php on line 15
+[01-Oct-2021 03:25:37 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/app.php on line 16
+[01-Oct-2021 03:25:40 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/broadcasting.php on line 18
+[01-Oct-2021 03:25:42 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/mail.php on line 16
+[01-Oct-2021 03:25:45 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/services.php on line 18
+[01-Oct-2021 03:25:47 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/coinbase.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/coinbase.php on line 5
+[17-Dec-2021 20:08:08 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/logging.php on line 20
+[18-Dec-2021 16:20:55 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/session.php on line 21
+[23-Dec-2021 20:49:01 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/cache.php on line 18
+[24-Dec-2021 05:03:12 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/hashing.php on line 32
+[26-Dec-2021 07:54:40 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/app.php on line 16
+[29-Dec-2021 07:56:25 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/queue.php on line 16
+[30-Dec-2021 09:40:47 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/session.php on line 21
+[30-Dec-2021 19:36:27 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/broadcasting.php on line 18
+[31-Dec-2021 12:39:36 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/ikheklue/public_html/appfiles/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/view.php on line 17
+[31-Dec-2021 17:18:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/database.php on line 18
+[05-Jan-2022 11:07:10 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/logging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/logging.php on line 20
+[05-Jan-2022 13:25:24 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/services.php on line 18
+[06-Jan-2022 13:36:11 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/filesystems.php on line 16
+[06-Jan-2022 15:15:08 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/ikheklue/public_html/appfiles/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ikheklue/public_html/appfiles/config/mail.php on line 16
